@@ -1,0 +1,152 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+#root {
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: #FFF;
+}
+
+main {
+  margin-inline: 2rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.79rem;
+}
+h2 {
+  font-size: 3.79rem;
+  margin-block-end: 2rem;
+}
+h3 {
+  font-size: 2.84rem;
+}
+h4 {
+  font-size: 2.13rem;
+}
+.p1 {
+  font-size: 1.4rem;
+}
+.p2 {
+  font-size: 1.6rem;
+}
+.p3 {
+  font-size: 1.8rem;
+}
+.psmall {
+  font-size: 1.2rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding-block: 2rem;
+  margin-block: 4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: inherit;
+  background-color: #10253C;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 100%;
+  cursor: pointer;
+}
+button:hover {
+  border-color: #fff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* specific styles for buttons */
+.gray_button {
+  background-color: #AFAFAF;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+}
+
+.red_button {
+  background-color: #AD000F;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+}
+
+.blue_button {
+  background-color: #10253C;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+}
+
+
+a {
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #218E5E;
+}
+
+
+.inactive {
+  cursor:not-allowed;
+}
+
+
+@media (min-width: 501px) {
+  main {
+    margin-inline: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin-inline: 4rem;
+  }
+}
